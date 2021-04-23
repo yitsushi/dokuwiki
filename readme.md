@@ -6,7 +6,7 @@ version: '3.2'
 
 services:
   web:
-    image: yitsushi/dokuwiki:2020-07-29-patch1
+    image: yitsushi/dokuwiki:2020-07-29-patch2
     networks:
       - traefik-public
     ports:
