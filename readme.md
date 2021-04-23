@@ -1,4 +1,13 @@
-My docker stack deploy:
+# Dokuwiki docker image
+
+## Install notes
+
+Use the `yitsushi/dokuwiki:2020-07-29-patch4-install` image,
+it allows `install.php` calls.
+
+IMPORTANT: Do not use this image after you finished installation.
+
+## My docker stack deploy
 
 ```yaml
 ---
@@ -6,7 +15,7 @@ version: '3.2'
 
 services:
   web:
-    image: yitsushi/dokuwiki:2020-07-29-patch2
+    image: yitsushi/dokuwiki:2020-07-29-patch4
     networks:
       - traefik-public
     ports:
