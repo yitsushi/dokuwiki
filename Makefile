@@ -1,4 +1,4 @@
-name := 2020-07-29-patch4
+name := 2020-07-29-patch5
 
 build:
 	docker build -t yitsushi/dokuwiki:$(name)-install -f Dockerfile-install .
