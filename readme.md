@@ -2,7 +2,7 @@
 
 ## Install notes
 
-Use the `yitsushi/dokuwiki:2020-07-29-patch5-install` image,
+Use the `yitsushi/dokuwiki:2023-04-04a-install` image,
 it allows `install.php` calls.
 
 IMPORTANT: Do not use this image after you finished installation.
@@ -15,7 +15,7 @@ version: '3.2'
 
 services:
   web:
-    image: yitsushi/dokuwiki:2020-07-29-patch5
+    image: yitsushi/dokuwiki:2023-04-04a
     networks:
       - traefik-public
     ports:

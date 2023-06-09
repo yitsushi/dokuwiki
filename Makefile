@@ -1,4 +1,4 @@
-name := 2022-07-31a
+name := 2023-04-04a
 
 build:
 	docker build -t yitsushi/dokuwiki:$(name)-install -f Dockerfile-install .
